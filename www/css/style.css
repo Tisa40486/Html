@@ -1,0 +1,82 @@
+/*
+Nom: Lefranc - Adam
+
+Prénom: Mattis
+
+Classe: 
+
+Date: 10.12.2024
+
+*/
+
+@font-face {
+    font-family: mtg;
+    src: url(../font/magic.ttf)
+}
+
+body{
+    font-family: mtg;
+    background-image:url("../img/gray_background.jpg");
+
+}
+header{
+    background-image:url("../img/landscape.jpg");
+    height: 500px ;
+    background-position: 2%;
+}
+.Title {
+    font-size: 200px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0% 20px;
+    font-size: 40px;
+    
+}
+a:hover{
+    background-color: #626060;
+    color: white;
+    font-size: 75px;
+}
+nav {
+    background-color: #1f1e1e;
+    
+    
+}
+img {
+    border-radius: 5%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    font-display:left;
+}
+#article {
+    display: block;
+    justify-content: center;
+}
+
+article {
+    background-color: #1f1e1e80;
+    color: lightgray;
+}
+article h1{
+    font-size: 75px;
+}
+article p{
+    font-size: 40px;
+}
